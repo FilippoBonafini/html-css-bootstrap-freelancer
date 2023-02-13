@@ -1,0 +1,10 @@
+.ms-card{
+    border-radius: 1.875rem;
+    overflow: hidden;
+
+}
+
+.ms-card >img{
+    width: 100%;
+    height: auto;
+}

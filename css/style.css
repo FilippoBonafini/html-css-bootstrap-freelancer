@@ -1,3 +1,8 @@
+@import "card.css";
+@import "variables.css";
+
+
+
 .debug #intestazione-main .immagine{
     height:260px; 
     width:230px; 
