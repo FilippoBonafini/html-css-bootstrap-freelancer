@@ -9,3 +9,11 @@
 .background-secondario{
     background-color: var(--ms-secondary-color);
 }
+
+.background-pre-footer{
+    background-color: var(--ms-primary-color-light);
+}
+
+.background-footer{
+    background-color: var(--ms-primary-color);
+}
