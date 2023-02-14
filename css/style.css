@@ -31,6 +31,10 @@ header *,
     color: white !important;
 }
 
+main img{
+    width: 30%;
+}
+
 .ms-star-nero *{
     color: black !important; 
 }
