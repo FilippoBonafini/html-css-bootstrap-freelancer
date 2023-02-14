@@ -17,3 +17,42 @@
 .background-footer{
     background-color: var(--ms-primary-color);
 }
+
+.bottone-secondario{
+    background-color: var(--ms-secondary-color);
+}
+.link-secondario{
+    color: var(--ms-secondary-color);
+    text-decoration: none;
+}
+
+header *,
+.porfolio{
+    color: white !important;
+}
+
+.ms-star-nero *{
+    color: black !important; 
+}
+
+.ms-star-bianco {
+    color: white;
+}
+
+.line {
+    display: inline-block;
+    height: 3px;
+    width: 100px;
+    background-color: white;
+    margin: 0 10px;
+}
+
+.line-black {
+    background-color: black;   
+}
+
+.star {
+    display: inline-block;
+    font-size: 2em;
+    position: relative;
+}
