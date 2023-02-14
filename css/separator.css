@@ -1,0 +1,15 @@
+.ms-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ms-bar::before,
+.ms-bar::after{
+    content: "";
+    display: block;
+    height: .1875rem;
+    max-width: 9.5rem;
+    width: 2.5rem;
+    background-color: currentColor;
+}

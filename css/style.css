@@ -1,5 +1,6 @@
 @import "card.css";
 @import "variables.css";
+@import "separator.css";
 
 
 .background-principale{
@@ -27,7 +28,8 @@
 }
 
 header *,
-.porfolio{
+.porfolio ,
+.testi *{
     color: white !important;
 }
 
@@ -35,28 +37,15 @@ main img{
     width: 30%;
 }
 
-.ms-star-nero *{
-    color: black !important; 
-}
-
-.ms-star-bianco {
+.ms-social-icons{
+    display: inline-block;
+    height: 3.4375rem;
+    width: 3.4375rem;
+    border-radius: 50%;
     color: white;
-}
+    border: .125rem solid white;
+    line-height: 3.4375rem;
+    text-align: center;
+    font-size: 23px;
 
-.line {
-    display: inline-block;
-    height: 3px;
-    width: 100px;
-    background-color: white;
-    margin: 0 10px;
-}
-
-.line-black {
-    background-color: black;   
-}
-
-.star {
-    display: inline-block;
-    font-size: 2em;
-    position: relative;
 }
